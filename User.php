@@ -1,25 +1,21 @@
 <?php 
 if(isset($_GET["pwd"])){ 
-if($_GET["pwd"]=="aaadc"){
-     echo"successfully hacked";
+if($_GET["pwd"]=="aaaza"){
+     echo"Mot de passe trouvé";
 }
 else{
-    echo"error";
-
+    echo"c'est pas le bon";
 }
 
 ?>
 <?php }else { ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="GET">
+    <form method="GET">
         <input type="password" name="pwd">
         <input type="submit" value="valider">
     </form>
