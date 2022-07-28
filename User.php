@@ -1,6 +1,6 @@
 <?php 
 if(isset($_GET["pwd"])){ 
-if($_GET["pwd"]=="aaaza"){
+if($_GET["pwd"]=="aabza"){
      echo"Mot de passe trouvé";
 }
 else{

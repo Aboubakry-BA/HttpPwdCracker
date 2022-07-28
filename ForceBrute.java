@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 
-public class ForceBrute implements Attack {
+public class ForceBrute extends Attack {
     // public User User1 = new User("Aboubakry", "BA");
 
     public String pwdCrack() throws IOException {

@@ -1,3 +1,4 @@
-public interface Attack {
-    String pwdCrack();
+public abstract class Attack {
+    String pwd;
+    public abstract String pwdCrack() throws Exception;
 }
