@@ -1,7 +1,3 @@
-public class Attack {
-    String pwd;
-
-    public Attack() {
-    }
-
+public interface Attack {
+    String pwdCrack();
 }

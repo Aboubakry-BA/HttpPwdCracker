@@ -2,12 +2,8 @@ import java.util.*;
 import java.io.*;
 import java.net.*;
 
-public class Dictionnaire extends Attack {
+public class Dictionnaire implements Attack {
     // public User User1 = new User("Aboubakry", "BA");
-
-    public Dictionnaire() {
-    }
-
     public String pwdCrack() throws Exception {
         InputStream document = new FileInputStream("dico.txt");
 
