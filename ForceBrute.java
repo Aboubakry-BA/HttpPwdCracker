@@ -28,7 +28,7 @@ public class ForceBrute extends Attack {
                                     System.out.println(line);
                                     if(line.equals("c'est pas le bon")){
                                     }else{
-                                        System.exit(0);
+                                        return null;
                                     }
                                 }
                             }
